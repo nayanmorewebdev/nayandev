@@ -1,0 +1,472 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="main-css/owl.theme.default.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="main-bg">
+            <div class="bg-[#0000007f] h-[100%] w-[100%]">
+                <!-- NAVBAR -->
+                <nav class="p-3 flex  justify-between items-center">
+                    <a href="#"><img class="max-w-30" src="imgs/1000018197.png" alt=""></a>
+                    <div id="NAV-MENU" class=" hidden md:flex gap-14">
+                        <a href="#" class="font-medium text-[#F7A40A] hover:text-[#ca8608]">Home</a>
+                        <a href="#" class="font-medium text-white hover:text-[#F7A40A]">About</a>
+                        <a href="#" class="font-medium text-white hover:text-[#F7A40A]">Products</a>
+                        <a href="contact.html" class="font-medium text-white hover:text-[#F7A40A]">Contact Us</a>
+
+                    </div>
+                    <button class="p-2 md:hidden" onclick="handlemenu()">
+                        <i class="ri-menu-3-line text-white text-xl font-bold"></i>
+                    </button>
+                    <div id="nav-dialog" class="hidden fixed z-10 md:hidden bg-white inset-0 p-3">
+                        <div id="nav-bar" class="flex justify-between">
+                            <a href="#"><img class="max-w-30" src="imgs/1000018197.png" alt=""></a>
+                            <button class="p-2 md:hidden" onclick="handlemenu()">
+                                <i class="ri-close-fill text-xl font-bold"></i>
+                            </button>
+                        </div>
+                        <div class="mt-6">
+                            <a href="#" class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg">Home</a>
+                            <a href="#" class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg">About</a>
+                            <a href="#" class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg">Products</a>
+                            <a href="contact.html"
+                                class="font-medium m-3 p-3 hover:bg-gray-100 block rounded-lg">Contact Us</a>
+                        </div>
+                        <div class="h-[1px] bg-gray-400"></div>
+
+
+                    </div>
+
+
+                </nav>
+
+                <div
+                    class="sec-2 flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between w-[85%] m-auto mt-[70%] sm:mt-[60%] md:mt-[35%] lg:mt-[23%]   text-white">
+                    <div>
+                        <div>
+                            <h1 class="text-[9vw] font-semibold">shinex laminates</h1>
+                        </div>
+                        <div>
+                            <p class=" text-[3vw]  font-semibold "> UV High Gloss & Supermart Panels</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button
+                            class="p-5 bg-transparent font-semibold border rounded-4xl hover:bg-white hover:text-black cursor-pointer">Our
+                            Products <i class="ri-arrow-right-up-line"></i></button>
+                    </div>
+                </div>
+                <!-- <div class="NAV-MENU fixed bg-white inset-0">
+                    <div><img src="imgs/1000018197.png" alt=""></div>
+                    <div class="block lg:hidden " onclick="handlemenu()">
+                        <i class="ri-menu-3-fill text-2xl text-amber-50"></i>
+                    </div>
+
+                </div> -->
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ------------------- Left fixed Position Element----------------------------- -->
+    <section class="fixed left-3 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-99999">
+
+        <!-- Call -->
+        <a href="tel:+916355540109">
+            <div class="group relative
+                    w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14
+                    bg-[#0b1f3a] border border-[#223a63]
+                    rounded-xl shadow-lg shadow-blue-700/30
+                    overflow-hidden transition-all duration-500
+                    hover:w-48 sm:hover:w-56 md:hover:w-64
+                    flex items-center">
+
+                <!-- Icon -->
+                <div class="absolute right-0 top-0 
+                        h-full w-10 sm:w-12 md:w-14
+                        flex items-center justify-center
+                        text-white text-lg sm:text-xl md:text-2xl
+                        bg-blue-600 transition-all duration-500
+                        group-hover:bg-blue-700 group-hover:rotate-360">
+                    <i class="ri-phone-fill"></i>
+                </div>
+
+                <!-- Text -->
+                <span class="absolute left-[-200px] group-hover:left-5 sm:group-hover:left-8
+                         md:group-hover:left-8
+                         top-1/2 -translate-y-1/2
+                         text-white font-medium whitespace-nowrap
+                         text-sm sm:text-base md:text-lg
+                         transition-all duration-500">
+                    +91 6355540109
+                </span>
+            </div>
+        </a>
+
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/+916355540109">
+            <div class="group relative
+                    w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14
+                    bg-[#0b1f3a] border border-[#223a63]
+                    rounded-xl shadow-lg shadow-green-700/30
+                    overflow-hidden transition-all duration-500
+                    hover:w-48 sm:hover:w-56 md:hover:w-64
+                    flex items-center">
+
+                <div class="absolute right-0 top-0 
+                        h-full w-10 sm:w-12 md:w-14
+                        flex items-center justify-center
+                        text-white text-lg sm:text-xl md:text-2xl
+                        bg-green-600 transition-all duration-500
+                        group-hover:bg-green-700 group-hover:rotate-360">
+                    <i class="ri-whatsapp-fill"></i>
+                </div>
+
+                <span class="absolute left-[-200px] group-hover:left-5 sm:group-hover:left-8 
+                         md:group-hover:left-8
+                         top-1/2 -translate-y-1/2
+                         text-white font-medium whitespace-nowrap
+                         text-sm sm:text-base md:text-lg
+                         transition-all duration-500">
+                    WhatsApp Chat
+                </span>
+            </div>
+        </a>
+
+
+        <!-- Location -->
+        <a href="https://maps.app.goo.gl/GvKKZsqeMsgf2nBx5" target="_blank">
+            <div class="group relative
+                    w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14
+                    bg-[#0b1f3a] border border-[#223a63]
+                    rounded-xl shadow-lg shadow-orange-700/30
+                    overflow-hidden transition-all duration-500
+                    hover:w-48 sm:hover:w-56 md:hover:w-64
+                    flex items-center">
+
+                <div class="absolute right-0 top-0 
+                        h-full w-10 sm:w-12 md:w-14
+                        flex items-center justify-center
+                        text-white text-lg sm:text-xl md:text-2xl
+                        bg-orange-600 transition-all duration-500
+                        group-hover:bg-orange-700 group-hover:rotate-360">
+                    <i class="ri-map-pin-fill"></i>
+                </div>
+
+                <span class="absolute left-[-200px] group-hover:left-5 sm:group-hover:left-8 
+                         md:group-hover:left-8
+                         top-1/2 -translate-y-1/2
+                         text-white font-medium whitespace-nowrap
+                         text-sm sm:text-base md:text-lg
+                         transition-all duration-500">
+                    Dealer Locator
+                </span>
+            </div>
+        </a>
+
+
+        <!-- Email -->
+        <a href="mailto:vijayambhorkar859@gmail.com">
+            <div class="group relative
+                    w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14
+                    bg-[#0b1f3a] border border-[#223a63]
+                    rounded-xl shadow-lg shadow-purple-700/30
+                    overflow-hidden transition-all duration-500
+                    hover:w-48 sm:hover:w-56 md:hover:w-64
+                    flex items-center">
+
+                <div class="absolute right-0 top-0 
+                        h-full w-10 sm:w-12 md:w-14
+                        flex items-center justify-center
+                        text-white text-lg sm:text-xl md:text-2xl
+                        bg-purple-600 transition-all duration-500
+                        group-hover:bg-purple-700 group-hover:rotate-360">
+                    <i class="ri-mail-ai-fill"></i>
+                </div>
+
+                <span class="absolute left-[-200px] group-hover:left-5 sm:group-hover:left-8 
+                         md:group-hover:left-8
+                         top-1/2 -translate-y-1/2
+                         text-white font-medium whitespace-nowrap
+                         text-sm sm:text-base md:text-lg
+                         transition-all duration-500">
+                    Email Us
+                </span>
+            </div>
+        </a>
+
+    </section>
+    <section>
+        <div class="sec-3 w-[95%] m-auto mt-22 ">
+            <div class="text-center">
+                <h2 class="mb-16  font-semibold text-gray-600 text-2xl">OUR OFFERINGS</h2>
+            </div>
+            <div class="flex flex-col lg:flex-row ">
+                <div class="p-3">
+                    <div class="img-main-box p-9 shadow-2xl rounded-3xl flex flex-col gap-4.5">
+                        <div><img width="32px" src="imgs/icon_1.jpg" alt=""></div>
+                        <div>
+                            <p class="text-2xl font-semibold">Duralam - Essential <br>pre-Laminated Panels </p>
+                        </div>
+                        <div><img class="rounded-3xl" src="imgs/img-1.jpg" alt=""></div>
+                        <div>
+                            <p>Explore among countless shades, style, and designs. That satisfies all your essential
+                                needs.</p>
+                        </div>
+                        <div>
+                            <p> <i class="ri-arrow-right-up-line border p-2 text-xl rounded-4xl arrow"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="img-main-box p-9 shadow-2xl rounded-3xl flex flex-col gap-4.5">
+                        <div><img width="32px" src="imgs/icon_2.jpg" alt=""></div>
+                        <div>
+                            <p class="text-2xl font-semibold">Duralam - Essential <br>pre-Laminated Panels </p>
+                        </div>
+                        <div><img class="rounded-3xl" src="imgs/img-2.jpg" alt=""></div>
+                        <div>
+                            <p>Explore among countless shades, style, and designs. That satisfies all your essential
+                                needs.</p>
+                        </div>
+                        <div>
+                            <p> <i class="ri-arrow-right-up-line border p-2 text-xl rounded-4xl arrow"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="img-main-box p-9 shadow-2xl rounded-3xl flex flex-col gap-4.5">
+                        <div><img width="32px" src="imgs/icon_3.jpg" alt=""></div>
+                        <div>
+                            <p class="text-2xl font-semibold">Duralam - Essential <br>pre-Laminated Panels </p>
+                        </div>
+                        <div><img class="rounded-3xl" src="imgs/img-3.jpg" alt=""></div>
+                        <div>
+                            <p>Explore among countless shades, style, and designs. That satisfies all your essential
+                                needs.</p>
+                        </div>
+                        <div>
+                            <p> <i class="ri-arrow-right-up-line border p-2 text-xl rounded-4xl arrow"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="sec-4  w-[95%] m-auto mt-22">
+            <div>
+                <h1 class="text-4xl lg:text-6xl font-semibold text-center">Why India Loves shinex</h1>
+            </div>
+            <div class="flex flex-col lg:flex-row mt-16 items-center ">
+                <div class="w-[90%] md:w-[70%] lg:w-[50%] flex flex-col gap-3">
+
+                    <div class="accordion-item">
+                        <p class="accordion-header text-xl lg:text-3xl font-semibold py-7 cursor-pointer">
+                            1/ Endless Design Option
+                            <i class="ri-arrow-down-s-line arrow"></i>
+                        </p>
+                        <div class="accordion-content">
+                            <p>With over 120 stunning styles, shinexlaminates offers choices for every taste and need.</p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="accordion-item">
+                        <p class="accordion-header text-xl lg:text-3xl font-semibold  py-7 cursor-pointer">
+                            2/ Top Notch Quality
+                            <i class="ri-arrow-down-s-line arrow"></i>
+                        </p>
+                        <div class="accordion-content">
+                            <p>Premium Material and advanced technology ensure products that last to impress.</p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="accordion-item">
+                        <p class="accordion-header text-xl lg:text-3xl font-semibold py-7 cursor-pointer">
+                            3/ Customer-Centric Approach
+                            <i class="ri-arrow-down-s-line arrow"></i>
+                        </p>
+                        <div class="accordion-content">
+                            <p>Reliable service and accessible solutions make Phoenix a favorite across India.</p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div>
+                        <a href="contact.html">
+                            <button
+                                class="mt-4 lg:mt-25 bg-transparent px-4 py-3 text-xl rounded-3xl text-[#F7A40A] border hover:bg-[#f7a40a] hover:text-white cursor-pointer  duration-500  font-semibold">
+                                Contact Us <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <script>
+                    document.querySelectorAll('.accordion-header').forEach(header => {
+                        header.addEventListener('click', () => {
+                            const content = header.nextElementSibling;
+                            const arrow = header.querySelector('.arrow');
+
+                            if (content.style.maxHeight) {
+                                content.style.maxHeight = null;
+                                arrow.style.transform = "rotate(0deg)";
+                            } else {
+                                content.style.maxHeight = content.scrollHeight + "px";
+                                arrow.style.transform = "rotate(180deg)";
+                            }
+                        });
+                    });
+                </script>
+
+
+                <div class="w-[100%] md:w-[70%] lg:w-[50%] m-auto mt-10  ">
+                    <!-- origin-center rotate-25 -->
+                    <img class="w-[60%] m-auto rounded-3xl" src="imgs/processd.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sec-5 w-[95%] m-auto mt-22">
+            <div>
+                <h1 class="text-4xl font-semibold mt-6">Gallary</h1>
+            </div>
+            <div class="mt-6">
+                <div class="owl-carousel abc owl-theme">
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-1.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-2.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-3.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-4.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-5.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-6.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-7.jpg" alt=""></div>
+                    <div class="item"><img class="rounded-2xl" src="imgs/i-8.jpg" alt=""></div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="sec-7 flex flex-col justify-center p-6 text-center">
+            <div>
+                <h1 class="text-2xl text-[#F7A40A]">info@shinexlaminates.com</h1>
+            </div>
+            <div>
+                <p>Let us help your dream become reality</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sec-8 flex gap-10 flex-col lg:flex-row justify-between lg:items-center  p-9 ">
+            <div class="w-[90%] lg:w-[40%] flex flex-col gap-6">
+                <div class="w-[200px]"><img src="imgs/1000018197.png" alt=""></div>
+                <div>
+                    <p>We specialize in Prelamination solutions that blend modern innovation with timeless
+                        craftsmanship. We offer a wide range of high-quality panels and other surface solutions designed
+                        to enhance spaces and stand the test of time</p>
+                </div>
+                <div class="flex gap-2.5">
+                    <div><i
+                            class=" hover:bg-[#f7a40a] hover:text-white cursor-pointer transition duration-400 text-lg border-1 border-gray-400 p-1.5 rounded-2xl ri-pinterest-fill"></i>
+                    </div>
+                    <div><i
+                            class=" hover:bg-[#f7a40a] hover:text-white cursor-pointer transition duration-400 text-lg border-1 border-gray-400 p-1.5 rounded-2xl ri-facebook-circle-fill"></i>
+                    </div>
+                    <div><i
+                            class=" hover:bg-[#f7a40a] hover:text-white cursor-pointer transition duration-400 text-lg border-1 border-gray-400 p-1.5 rounded-2xl ri-instagram-fill"></i>
+                    </div>
+                    <div><i
+                            class=" hover:bg-[#f7a40a] hover:text-white cursor-pointer transition duration-400 text-lg border-1 border-gray-400 p-1.5 rounded-2xl ri-linkedin-box-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[90%] lg:w-[30%] flex flex-col gap-2 ">
+                <div>
+                    <h3 class="text-2xl font-semibold">Quick Links
+                        <hr class="visible md:hidden">
+                    </h3>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div>Home</div>
+                    <div>About</div>
+                    <div>Products</div>
+                    <a class="hover:text-[#eca829]" href="contact.html">
+                        <div>Contact</div>
+                    </a>
+                </div>
+            </div>
+            <div class="w-[90%] lg:w-[30%] flex flex-col gap-2">
+                <div>
+                    <h3 class="text-2xl font-semibold">Reach Us
+                        <hr class="visible md:hidden">
+                    </h3>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div>
+                        <p>Killa No 163/21(7-11), 164/25/2/1(4-11), Banyani, Rahtak, Haryana - 124411</p>
+                    </div>
+                    <div>
+                        <p>info@shinexlaminates.com</p>
+                    </div>
+                    <div>
+                        <p>+91 70567 68000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main-js/jquery-3.7.1.js"></script>
+    <script src="main-js/owl.carousel.min.js"></script>
+    <script>
+        $('.abc').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+
+            }
+        })
+        // $('.xyz').owlCarousel({
+        //     loop: true,
+        //     margin: 10,
+        //     nav: true,
+        //     dots: false,
+        //     responsive: {
+        //         0: {
+        //             items: 1
+        //         },
+
+        //     }
+        // })
+    </script>
+</body>
+<script src="script.js"></script>
+
+</html>
